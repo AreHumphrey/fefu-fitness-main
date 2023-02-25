@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:mobx/mobx.dart';
 import 'package:pretty_qr_code/pretty_qr_code.dart';
-import '../gen/strings.g.dart';
-
+import '../gen/string.g.dart';
+import '../main.dart';
 
 ScrollController scrollController = ScrollController();
 

@@ -10,7 +10,11 @@ import 'package:mobx/mobx.dart';
 
 import 'package:go_router/go_router.dart';
 
+import 'gen/string.g.dart';
+
 var user;
+
+final page = 0.obs();
 
 Future<void> main() async {
   await Hive.initFlutter();

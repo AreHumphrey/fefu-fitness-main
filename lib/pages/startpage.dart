@@ -3,6 +3,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
+import '../gen/string.g.dart';
+
 final login = TextEditingController();
 final password = TextEditingController();
 
@@ -78,7 +80,11 @@ class LoginPage extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(bottom: 10),
                   child: TextButton(
-                      onPressed: () {}, child: Text('Забыли пароль?',), ),
+                    onPressed: () {},
+                    child: Text(
+                      'Забыли пароль?',
+                    ),
+                  ),
                 )
               ]),
             ),
